@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/cloud360plus/k8s.git'
             }
         }
 
